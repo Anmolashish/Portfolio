@@ -467,4 +467,7 @@
   #about {
     height: auto;
   }
+  #left-about {
+    height: 100%;
+  }
 }
