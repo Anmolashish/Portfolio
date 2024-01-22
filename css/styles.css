@@ -346,6 +346,11 @@ html {
 .color {
   color: #706c61;
 }
+
+.typewrite:hover {
+  text-decoration: none;
+}
+
 .highlight {
   font-weight: bold;
   line-height: 3;
