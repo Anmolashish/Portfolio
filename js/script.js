@@ -59,4 +59,12 @@ window.onload = function () {
 };
 
 //contact me data manulations
-let cancalButton = document.querySelector(".app-form-button contact-button");
+let cancalButton = document.querySelector(".app-form-button");
+let input = document.querySelectorAll(".app-form-control");
+
+cancalButton.addEventListener("click", () => {
+  input.forEach((element) => {
+    element.value = "";
+    element.innerText = "";
+  });
+});
