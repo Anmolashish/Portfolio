@@ -138,7 +138,7 @@ html {
   transition: transform 0.5s;
 }
 
-.resume:hover,
+#resume:hover,
 #more:hover {
   transform: scale(1.1);
 }
